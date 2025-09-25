@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulaire</title>
+  <style>
+    body {
+      direction: rtl;
+      text-align: center;
+      font-family: 'Times New Roman', serif;
+      font-size: 30px;
+      background-color: #f3efef;
+      margin: 0;
+      padding: 0;
+      background-image: url('https://imagizer.imageshack.com/img923/7324/w2A55y.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    /* Bandeau en haut avec logo + 2 drapeaux */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #f3efef;
+      padding: 0px 20px;
+    }
+    .header img {
+      height: 260px;
+    }
+    .logo {
+      height: 150px; /* Logo plus grand */
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+    form {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 0px;
+      border-radius: 10px;
+      max-width: 900px;
+      width: 100%;
+      box-shadow: 0 0 0px rgba(255, 255, 255, 0.8);
+    }
+    label {
+      display: block;
+      margin-bottom: 0px;
+      font-weight: bold;
+    }
+    input, textarea, select {
+      width: 90%;
+      padding: 15px;
+      margin-bottom: 16px;
+      border-radius: 4px;
+      border: 1px solid #000;
+      font-size: 20px;
+    }
+    button {
+      background-color: #6fdc6f;
+      color: black;
+      padding: 20px 60px;
+      border: none;
+      border-radius: 50px;
+      font-size: 24px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <!-- Drapeau gauche -->
+    <img src="https://www.drapeaux-shop.com/Gif-Anime/Drapeaux-Gifs/Drapeau-Algerie_180-gif.gif" alt="Drapeau gauche">
+    <!-- Logo au centre -->
+    <img src="https://imagizer.imageshack.com/img923/8492/KTNw2c.png" alt="Logo" class="logo">
+    <!-- Drapeau droit -->
+    <img src="https://www.drapeaux-shop.com/Gif-Anime/Drapeaux-Gifs/Drapeau-Algerie_180-gif.gif" alt="Drapeau droit">
+  </div>
+  <h1 style="color: rgb(14, 14, 14); text-align: center; margin: 1px 0;">
+    استمار التسجيل الاولي من اجل التدريس لدى الديوان الوطني لمحو الامية و تعليم الكبار
+  </h1>
+  <div class="container">
+    <form action="https://script.google.com/macros/s/AKfycbwDxQnzKBTyupMAh5u_U-NtRzxRHh7RMHyiiYb7JBwIX_JSKFtuL3-vBFh-OX7ArbWl/exec" method="POST">           
+      <label for="nom">الاسم</label>
+      <input type="text" name="nom" required>
+      <label for="prenom">اللقب</label>
+      <input type="text" name="prenom" required>
+      <label for="birthdate">تاريخ الميلاد:</label>
+      <input type="date" id="birthdate" name="birthdate" required>
+      <label for="place">مكان الميلاد</label>
+      <input type="text" name="place" required>
+      <label for="addresse">الولاية  الاقامة</label>
+      <select name="addresse" required>
+        <option value="">-- Sélectionnez --</option>
+        <option value="Wilaya">(02) الشلف</option>
+<option value="Wilaya">(03) الأغواط</option>
+<option value="Wilaya">(04) أم البواقي</option>
+<option value="Wilaya">(05) باتنة</option>
+<option value="Wilaya">(06) بجاية</option>
+<option value="Wilaya">(07) بسكرة</option>
+<option value="Wilaya">(08) بشار</option>
+<option value="Wilaya">(09) البليدة</option>
+<option value="Wilaya">(10) البويرة</option>
+<option value="Wilaya">(11) تمنراست</option>
+<option value="Wilaya">(12) تبسة</option>
+<option value="Wilaya">(13) تلمسان</option>
+<option value="Wilaya">(14) تيارت</option>
+<option value="Wilaya">(15) تيزي وزو</option>
+<option value="Wilaya">(16) الجزائر العاصمة</option>
+<option value="Wilaya">(17) الجلفة</option>
+<option value="Wilaya">(18) جيجل</option>
+<option value="Wilaya">(19) سطيف</option>
+<option value="Wilaya">(20) سعيدة</option>
+<option value="Wilaya">(21) سكيكدة</option>
+<option value="Wilaya">(22) سيدي بلعباس</option>
+<option value="Wilaya">(23) عنابة</option>
+<option value="Wilaya">(24) قالمة</option>
+<option value="Wilaya">(25) قسنطينة</option>
+<option value="Wilaya">(26) المدية</option>
+<option value="Wilaya">(27) مستغانم</option>
+<option value="Wilaya">(28) المسيلة</option>
+<option value="Wilaya">(29) معسكر</option>
+<option value="Wilaya">(30) ورقلة</option>
+<option value="Wilaya">(31) وهران</option>
+<option value="Wilaya">(32) البيض</option>
+<option value="Wilaya">(33) إليزي</option>
+<option value="Wilaya">(34) برج بوعريريج</option>
+<option value="Wilaya">(35) بومرداس</option>
+<option value="Wilaya">(36) الطارف</option>
+<option value="Wilaya">(37) تندوف</option>
+<option value="Wilaya">(38) تيسمسيلت</option>
+<option value="Wilaya">(39) الوادي</option>
+<option value="Wilaya">(40) خنشلة</option>
+<option value="Wilaya">(41) سوق أهراس</option>
+<option value="Wilaya">(42) تيبازة</option>
+<option value="Wilaya">(43) ميلة</option>
+<option value="Wilaya">(44) عين الدفلى</option>
+<option value="Wilaya">(45) النعامة</option>
+<option value="Wilaya">(46) عين تموشنت</option>
+<option value="Wilaya">(47) غرداية</option>
+<option value="Wilaya">(48) غليزان</option>
+<option value="Wilaya">(49) تيميمون</option>
+<option value="Wilaya">(50) برج باجي مختار</option>
+<option value="Wilaya">(51) أولاد جلال</option>
+<option value="Wilaya">(52) بني عباس</option>
+<option value="Wilaya">(53) عين صالح</option>
+<option value="Wilaya">(54) عين قزام</option>
+<option value="Wilaya">(55) تقرت</option>
+<option value="Wilaya">(56) جانت</option>
+<option value="Wilaya">(57) المغير</option>
+<option value="Wilaya">(58) المنيعة</option>
+      </select>
+      <label for="name">العنوان</label>
+      <input type="text" name="name" required>
+
+      <label for="email">البريد الالكتروني</label>
+      <input type="email" name="email" required>
+
+      <label for="diplom">الشهادة</label>
+      <select name="diplom" required>
+        <option value="">-- Sélectionnez --</option>
+        <option>دكتورا</option>
+        <option>ماجستير</option>
+        <option>ماستر</option>
+        <option>مهندس دولة</option>
+        <option>ليسانس</option>
+        <option>تقني سامي</option>
+        <option>DUEA</option>
+        <option>بكالوريا فما فوق</option>
+        <option>الثالثة ثانوي</option>
+      </select>
+      <label for="experience">هل درست في احدى ملحقات الديوان او اي مقر سابقا؟</label>
+      <select name="experience" required>
+        <option value="">-- Sélectionnez --</option>
+        <option>نعم</option>
+        <option>لا</option>
+      </select>
+      <label for="informatique">هل انت متقن لوسائل الاعلام الالي؟</label>
+      <select name="informatique" required>
+        <option value="">-- Sélectionnez --</option>
+        <option>نعم</option>
+        <option>لا</option>
+      </select>
+
+      <button type="submit">إرسال</button>
+    </form>
+  </div>
+</body>
+</html>
